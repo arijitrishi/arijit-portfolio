@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 💼 Arijit Ghosh – Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website built with **React**, **Tailwind CSS**, **Framer Motion**, and **tsParticles**.
 
-## Available Scripts
+This responsive and animated website is designed to showcase my skills, experience, and projects as a **Java Backend Developer**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 Elegant, modern UI with a soft gradient background
+- ✨ tsParticles-powered animated background
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- 🎥 Smooth section transitions using Framer Motion
+- ⬆️ Scroll-to-top button for UX improvement
+- 🌙 Dark-themed aesthetic with interactive links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** – Frontend JavaScript library
+- **Tailwind CSS** – Utility-first CSS framework
+- **Framer Motion** – Animations and transitions
+- **tsParticles** – Interactive particle background
+- **Lucide React** – Icon library
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Preview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Website Preview](./src/assets/arijit.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Live Demo: [https://your-username.github.io/arijit-portfolio](https://your-username.github.io/arijit-portfolio)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository and install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/arijitrishi/arijit-portfolio.git
+cd arijit-portfolio
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##📁 Project Structure
+arijit-portfolio/
+│
+├── public/
+├── src/
+│   ├── assets/           # Profile images and static files
+│   ├── components/       # UI components (if split)
+│   └── Home.js           # Main portfolio layout
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
 
-## Learn More
+🚀 Customization
+Profile picture: /src/assets/arijit.jpg
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Change theme colors in Tailwind classes (from-[#1f4037] etc.)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add or update sections in Home.js
 
-### Code Splitting
+Update particle styles inside <Particles /> options
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🤝 Contact
+📧 Email: arijit.g499@gmail.com
+🔗 LinkedIn: linkedin.com/in/arijit-ghosh-033257190
+🐙 GitHub: github.com/arijitrishi
