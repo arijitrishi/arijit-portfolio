@@ -14,6 +14,7 @@ This responsive and animated website is designed to showcase my skills, experien
 - 🎥 Smooth section transitions using Framer Motion
 - ⬆️ Scroll-to-top button for UX improvement
 - 🌙 Dark-themed aesthetic with interactive links
+- 📁 Optimized file structure for maintainability
 
 ---
 
@@ -31,7 +32,7 @@ This responsive and animated website is designed to showcase my skills, experien
 
 ![Website Preview](./src/assets/arijit.jpg)
 
-Live Demo: [https://your-username.github.io/arijit-portfolio](https://your-username.github.io/arijit-portfolio)
+🔗 **Live Demo:** https://arijitrishi-portfolio.netlify.app/
 
 ---
 
@@ -43,31 +44,44 @@ Clone the repository and install the dependencies:
 git clone https://github.com/arijitrishi/arijit-portfolio.git
 cd arijit-portfolio
 npm install
+npm run dev
+```
 
-##📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 arijit-portfolio/
 │
-├── public/
+├── public/                  # Static assets
 ├── src/
-│   ├── assets/           # Profile images and static files
-│   ├── components/       # UI components (if split)
-│   └── Home.js           # Main portfolio layout
+│   ├── assets/             # Profile images and media
+│   ├── components/         # (optional) Reusable UI components
+│   └── Home.js             # Main portfolio layout
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── package.json
 └── README.md
+```
 
-🚀 Customization
-Profile picture: /src/assets/arijit.jpg
+---
 
-Change theme colors in Tailwind classes (from-[#1f4037] etc.)
+## 🧩 Customization Guide
 
-Add or update sections in Home.js
+- **Profile Picture**: Replace `src/assets/arijit.jpg` with your own image.
+- **Theme Colors**: Update Tailwind classes like `from-[#1f4037]`, `to-[#1f4037]` inside `Home.js`.
+- **Content Sections**: Edit text in `App.js` to add new experiences, skills, or projects.
+- **Particles Config**: Modify the `options` inside `<Particles />` in `Home.js` for custom animations.
 
-Update particle styles inside <Particles /> options
+---
 
+## 🤝 Contact
 
-🤝 Contact
-📧 Email: arijit.g499@gmail.com
-🔗 LinkedIn: linkedin.com/in/arijit-ghosh-033257190
-🐙 GitHub: github.com/arijitrishi
+- 📧 Email: [arijit.g499@gmail.com]
+- 🔗 LinkedIn: [linkedin.com/in/arijit-ghosh-033257190]
+- 🐙 GitHub: [github.com/arijitrishi]
+
+---
+
+> 💡 Tip: If you're viewing this repo on GitHub, check out the hosted version for a better experience!
